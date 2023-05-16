@@ -1,0 +1,7 @@
+@import "./custom-property";
+@import "./utilities";
+
+body {
+  background-color: rgb(68, 53, 228);
+  color: var (--color-red);
+}
